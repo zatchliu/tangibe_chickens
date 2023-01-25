@@ -465,6 +465,19 @@
           "identifier": "https://project-resources.gdevelop.io/4001df84-58fa-43d2-b8a8-5e99ececfacf/resources/41db32bd10c19cd1698ec013b063d7bd36eab3630bd5d5812038797368f2e3f9-grass_texture.png",
           "name": "cloud-project-resource"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Box.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/5f998fc3fa4e18ec9b833a5c26b2295e8f2ad8dffb75cad490a4fded5386ff1f_Box.png",
+          "name": "Box.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -540,6 +553,21 @@
           "x": 309,
           "y": 417,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Box",
+          "persistentUuid": "7cf0ed66-b063-4058-ac54-d5d59c8a1c26",
+          "width": 0,
+          "x": 447,
+          "y": 350,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1630,6 +1658,47 @@
               "canBeGrabbed": false,
               "platformType": "NormalPlatform",
               "yGrabOffset": 0
+            }
+          ]
+        },
+        {
+          "assetStoreId": "6397b4b4b0444c2cd4e7fef6653bd375506a2ab5e54d92505396ad62bd3e0856",
+          "name": "Box",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Box.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
